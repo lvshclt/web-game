@@ -1,5 +1,5 @@
 import GNB from './components/GNB';
-import JavaScript from './components/JavaScript';
+import Lang from './components/Lang';
 
 function App() {
   return (
@@ -7,8 +7,8 @@ function App() {
       <div className="row">
         <GNB />
         <div className="body col-lg-10">
-          <JavaScript />
-          <JavaScript />
+          <Lang lang="javaScript" />
+          <Lang lang="react" />
         </div>
       </div>
     </div>
